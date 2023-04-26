@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#line{
+	margin-top:100px;
+	border-top: 2px solid black;
+	width: 200px;
+	height:2px;
+	animation-name: anim;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
