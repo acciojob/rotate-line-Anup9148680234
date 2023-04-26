@@ -1,20 +1,9 @@
-/*  your css code here. If applicable */
-#line{
-	position:absolute;
-	top:100px;
-	border-top: 2px solid black;
-	width: 200px;
-	height:2px;
-	animation-name: anim;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-}
-
-@keyframes anim{
-	from{
-		transform: rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg);
-	}
-}
+#line {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    width: 200px;
+    height: 2px;
+    background-color: black;
+  }
